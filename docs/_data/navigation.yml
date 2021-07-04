@@ -24,53 +24,36 @@ header:
       # @end locale config
     url: /archive.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
-    url: /about.html
-
 docs-en: 
-  - title: Physics
-    children: 
-    - title: Condensed matter physics
-      url: /condensed-matter-physics.html
-    # - title: Electronics
-    #   url:
-    # - title: Quantum mechanics
+  # - title: Physics
+  #   children: 
+  #   - title: Thermodynamics and statistical physics
+  #     url: /thermodynamics-statistical-physics.html
+    # - title: Quantum physics # Particle physics
     #   url: 
     # - title: Electromagnetism
     #   url:
-    # - title: Thermodynamics and statistical physics
-    #   url: 
-    # - title: Physics laboratory
+    # - title: Special topics # Electronics, condensed matter physics
     #   url: 
     # - title: Optics
     #   url: 
-  # - title: Mathematics
-  #   children:
-  #   - title: Automata, languages and complexity
-  #     url:
-  #   - title: Linear algebra
-  #     url:
-  #   - title: Abstract algebra
-  #     url: 
+  - title: Mathematics
+    children:
+    # - title: Algebra
+    #   url: 
+    - title: Analysis
+      url: /analysis.html
+    # - title: Calculus
+    #   url: 
+    # - title: Discrete mathematics # Graph theory, number theory, networks
+    #   url: 
+    # - title: Geometry and topology
+    #   url: 
+    # - title: Linear algebra
+    #   url:
+    # - title: Probability and statistics
+    #   url:
+  # - title: Computer Science
+  #   children: 
+  #   - title: Artificial Intelligence
+  #     url: /AI.html

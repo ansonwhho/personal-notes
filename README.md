@@ -1,4 +1,6 @@
-# St Andrews Notes
-This repo contains physics and maths notes based on courses that I've taken at the University of St Andrews. While I've referred to external texts (course lecture notes, books, etc.), they are in written in my own words and are by no means a carbon copy of official resources. 
+# Personal notes
+These are personal notes that I've written based on lecture notes and books that I've read, and courses that I've taken at the University of St Andrews (note however that these are not necessarily representative of what the courses are like). The main idea is to help improve my own understanding and to practise explaining concepts. 
 
-There will certainly be errors in the documents (typos, misconceptions, etc.), all of which are my own. Please use at your own risk!
+The notes are typically contained in the form of individual posts about a particular topic, rather than as a full "course" (although this may sometimes be the case). There is no specified level of technical difficulty, and this can vary quite significantly between posts. I've also included recommended resources for further reading at the bottom of each article. 
+
+Hopefully you'll find these notes helpful, but bear in mind that they are by no means peer-reviewed - use them at your own risk! If you spot any errors or have any comments about the content you can find my contact details on my main [blog](https://spectroscopycafe.github.io/). 
