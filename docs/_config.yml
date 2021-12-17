@@ -47,13 +47,13 @@ medium    : # "user_name" the last part of your profile url, e.g. https://medium
 zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
 douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
 linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-github    : https://github.com/spectroscopycafe # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+github    : https://github.com/ansonwhho # "user_name" the last part of your profile url, e.g. https://github.com/user_name
 npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: spectroscopycafe/personal-notes
+repository: ansonwhho/personal-notes
 repository_tree: main
 
 

@@ -37,23 +37,7 @@ docs-en:
     #   url: 
     # - title: Optics
     #   url: 
-  - title: Mathematics
+  - title: Computer Science
     children:
-    # - title: Algebra
-    #   url: 
-    - title: Analysis
-      url: /analysis.html
-    # - title: Calculus
-    #   url: 
-    # - title: Discrete mathematics # Graph theory, number theory, networks
-    #   url: 
-    # - title: Geometry and topology
-    #   url: 
-    # - title: Linear algebra
-    #   url:
-    # - title: Probability and statistics
-    #   url:
-  # - title: Computer Science
-  #   children: 
-  #   - title: Artificial Intelligence
-  #     url: /AI.html
+      - title: Artificial Intelligence
+        url: /artificial-intelligence.html
