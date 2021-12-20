@@ -6,7 +6,7 @@ sidebar:
 aside:
   toc: true
 show_tags: true
-tags: AI AI-safety papers
+tags: AI AI-safety papers reinforcement-learning deep-learning
 ---
 A summary of the paper *Deep Reinforcement Learning from Human Preferences* by Christiano *et al.*
 

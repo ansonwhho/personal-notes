@@ -6,7 +6,7 @@ sidebar:
 aside:
   toc: true
 show_tags: true
-tags: AI papers
+tags: AI papers deep-learning
 ---
 Where I read two papers about the *double descent* phenomenon, a significant challenge to our understanding of statistical learning
 

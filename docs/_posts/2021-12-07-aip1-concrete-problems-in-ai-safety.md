@@ -54,7 +54,7 @@ What we need to figure out is how to avoid these negative side effects. The appr
 
 Ideally, these approaches would place bounds on how much harm an agent can do.
 
-### Avoiding reward hacking**  
+### Avoiding reward hacking
 Another way in which things could go wrong is reward hacking, where the agent exploits a property of the reward function to get extremely high reward in unintended fashion. If a clearning robot gets reward for not seeing any messes, then all it has to do is close its eyes[^3]. 
 
 There are many ways in which reward hacking can occur, which we'll need to understand in order to prevent: 
@@ -82,7 +82,7 @@ Some approaches to mitigate reward hacking include:
 These techniques have their shortcomings, but they hopefully provide some concrete approaches to reducing risks from reward gaming. 
 
 ## Case 2
-**Scalable oversight**  
+### Scalable oversight 
 One cause of safety issues is that we can't always give fully representative reward signals to the AI agent. For instance, giving a good reward signal might require several hours of analysis which we generally don't have (i.e. we have a limited "oversight budget"), and we thus use cheaper methods for evaluating agent performance during training. However, these cheaper methods don't fully capture our preferences, and lead to side effects. How can agents efficiently achieve goals when feedback is very expensive?
 
 One approach to tackle this is through the framework of [semi-supervised reinforcement learning](https://ai-alignment.com/semi-supervised-reinforcement-learning-cf7d5375197f), where the agent is only allowed to see its rewards on a subset of episodes or timesteps. One particular case of this is active learning, where the agent requests to see the reward at certain episodes or timesteps, with the aim of being economical in feedback requests and total training time. 

@@ -41,3 +41,9 @@ docs-en:
     children:
       - title: Artificial Intelligence
         url: /artificial-intelligence.html
+  #     - title: Theoretical Computer Science
+  #       url: /theoretical-computer-science.html
+  # - title: Mathematics
+  #   children: 
+  #   - title: Algebra
+  #     url: /algebra.html
