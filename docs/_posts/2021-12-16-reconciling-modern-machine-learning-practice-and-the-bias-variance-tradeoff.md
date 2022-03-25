@@ -38,29 +38,3 @@ Overall, it's possible there are fundamental difference in doing optimisation in
 This seems like a very plausible explanation to me. I'm confused about the how features get forced to fit the training data - does this mean that in some situations, where the parameters are chosen appropriately, then we definitely won't observe double descent?
 
 I also don't really see how this argument (that increasing the number of parameters increases the space of possible functions) works for double descent due to increasing time or data. But I did find the argument itself reasonably compelling.  
-
-# Grokking
-A summary of the 2021 paper *[Grokking: Generalization Beyond Overfitting On Small Algorithmic Datasets](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf)* by Power *et al.* This paper builds upon previous work done on double descent, and suggests a novel approach for studying how neural networks generalise. 
-
-## Summary
-This paper argues that we should use algorithmically generated datasets to study the generalisability of neural networks to different distributions. 
-
-Why? Neural nets trained on these distributions reliably demonstrate some unusual generalisation patterns:
-1. **Generalisation beyond overfitting**: the neural networks demonstrate **grokking** - when validation accuracy suddenly increases from chance level to perfect generalisation, *long after severely overfitting*. But why should a neural net suddenly stop overfitting with more training?
-2. **Learning time curves**: decreasing the dataset size keeps the generalisation performance high, but the training time needed to reach this performance increases exponentially. In contrast, the *training* performance generally decreases with decreasing dataset size, and the optimisation time doesn't change much. But why doesn't the generalisation performance decrease with smaller dataset size?
-
-These results seemed most prominent with certain types of regularisation, like weight decay (or $L_2$ regularisation).
-
-In addition, the authors also find some interesting patterns. The algorithms generated were based on binary operations (for either the symmetric group $S_5$ or a ring $^{\mathbb{Z}}/_{n\mathbb{Z}}$), but with the group elements relabelled with abstract symbols. 
-* Commutative operations required less data to learn, and the network was simply unable to generalise on some other operations. 
-* Plotting the network's representations reveals as an embedding algebraic structures (e.g. the elements get clustered together if they are in the same coset)
-
-The hope is that by studying these datasets, we can get a better understanding of how generalisation actually works - this is something that our current understanding of statistical learning and deep learning is unable to explain. 
-
-## Thoughts
-I found this paper quite interesting, especially the part about the algebraic structures emerging after doing the [t-SNE embedding](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding). It also raises quite a lot of questions, without providing any answers! 
-
-Here are some things that I don't understand: 
-* Why do some operations appear effectively random to the model? 
-* It makes sense that the elements of a cyclic group should form circular structures after applying an embedding, but why should it look like the way it did in the paper? How can I know *a priori* where each number might land under the transformation?
-* How should I think of double descent in terms of gradient descent in some kind of loss landscape?
