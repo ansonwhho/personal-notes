@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "AI Papers #2: Deep Reinforcement Learning from Human Preferences"
+title: "Deep Reinforcement Learning from Human Preferences (Christiano, 2017)"
 sidebar:
   nav: docs-en
 aside:
@@ -8,28 +8,15 @@ aside:
 show_tags: true
 tags: AI AI-safety papers reinforcement-learning deep-learning
 ---
-A summary of the paper *Deep Reinforcement Learning from Human Preferences* by Christiano *et al.*
-
----
-
-**Epistemic status**: moderate confidence, likely a few mistakes or misconceptions. Note that these are meant to be my personal notes based on self-study - if you're seeking informed expert opinion on AI safety, you should probably look elsewhere.
-
-
-<br />
-
-## Overview
-As with *[Concrete Problems in AI Safety](/2021/12/07/concrete-problems-in-ai-safety.html)*, this is a paper that I've heard about quite a few times amongst members of the AI safety community. [This paper](https://arxiv.org/pdf/1706.03741.pdf) was key in showing that [Cooperative Inverse Reinforcement Learning](https://arxiv.org/abs/1606.03137) could be useful for learning complex tasks in deep reinforcement learning. It was written by [Paul Christiano](https://paulfchristiano.com/) *et al*, as a collaboration between [OpenAI](https://openai.com/) and [DeepMind](https://deepmind.com/). 
-
-I've skimmed this before when I was taking part in [Effective Altruism Cambridge's](https://www.eacambridge.org/) [AGI Safety Fundamentals](https://www.eacambridge.org/agi-safety-fundamentals) programme, but at the time I was too busy to read it in detail.
-
-Bear in mind that these are my personal notes to help me learn more about AI and hopefully contribute to AI safety. I'm not an expert in AI safety - you have be warned!
+# Overview
+This is a summary of *[Deep Reinforcement Learning from Human Preferences](https://arxiv.org/abs/1706.03741)*, by Christiano *et al.*
 
 ## Summary
 Part of the reason why AI alignment is a challenging problem is that we cannot easily write down a function that exhaustively and accurately reflects human values[^1], placing a serious constraint on standard reinforcement learning (RL) techniques. How can we teach RL systems to behave according to our preferences?
 
 What we're looking for is a reward function satisfies several properties: 
 1. It helps RL agents solve tasks where humans can recognise good behaviour, without necessarily being able to demonstrate it[^2]
-2. It allows agents can be taught by non-experts
+2. It allows for agents that can be taught by non-experts
 3. It scales to large deep learning problems
 4. It is economical with user feedback
 

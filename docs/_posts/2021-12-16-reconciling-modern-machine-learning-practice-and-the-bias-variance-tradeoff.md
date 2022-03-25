@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "AI Papers #3: Double descent"
+title: "Reconciling modern machine learning practice and the bias-variance trade-off (Belkin, 2019)"
 sidebar:
   nav: docs-en
 aside:
@@ -8,20 +8,8 @@ aside:
 show_tags: true
 tags: AI papers deep-learning
 ---
-Where I read two papers about the *double descent* phenomenon, a significant challenge to our understanding of statistical learning
-
----
-
-**Epistemic status**: moderate confidence, expect some misconceptions. 
-
-<br />
 
 # Overview
-This week I read two papers about [double descent](https://openai.com/blog/deep-double-descent/), which is the phenomenon where with increasing training (or parameters, or data), test performance first improves, gets worse, then improves again.
-1. *[Reconciling modern machine learning practice and the bias-variance trade-off](https://arxiv.org/pdf/1812.11118.pdf)* by Belkin *et al.* (2019)  
-2. *[Grokking: Generalization Beyond Overfitting On Small Algorithmic Datasets](https://mathai-iclr.github.io/papers/papers/MATHAI_29_paper.pdf)* by Power *et al.* (2021)
-
-# The bias-variance "trade-off"
 A summary of the 2019 paper *[Reconciling modern machine learning practice and the bias-variance trade-off](https://arxiv.org/pdf/1812.11118.pdf)* by Belkin *et al.*
 
 ## Summary

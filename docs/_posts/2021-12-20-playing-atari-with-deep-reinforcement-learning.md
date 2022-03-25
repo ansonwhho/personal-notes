@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "AI Papers #4: Playing Atari with Deep Reinforcement Learning (DQN)"
+title: "Playing Atari with Deep Reinforcement Learning (Mnih, 2013)"
 sidebar:
   nav: docs-en
 aside:
@@ -9,18 +9,9 @@ show_tags: true
 tags: AI papers reinforcement-learning deep-learning
 ---
 
-Where I start [Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html#a-deep-q-learning), with a really groundbreaking paper in RL...
-
----
-
-**Epistemic status**: moderate confidence, expect some misconceptions. 
-
-<br />
-
-# Overview
-This week I embark on an attempt to level-up in deep RL, through OpenAI's Spinning Up in Deep RL resource. The first paper I'll be reading is a classic - *[Playing Atari with Deep Reinforcement Learning](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)*, by Mnih *et al.* (2013). This was the paper that really brought RL back into the limelight, and sparked a bunch of further breakthroughs in following years. As far as I know, progress is still going strong in this area (e.g. see the recent paper on [EfficientZero](https://arxiv.org/pdf/2111.00210.pdf) by Ye *et al.*)
-
 # Summary
+*[Link to paper](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)* by Mnih *et al.*
+
 One major challenge in reinforcement learning (RL) is to control agents using high-dimensional sensory inputs, like vision. This has become possible due to deep learning (DL), but is still challenging for several reasons: 
 * **Sparsity**: DL needs lots of data, but the reward signal in RL is often sparse
 * **Delay**: feedback signals in DL are immediate, but can be delayed by thousands of timesteps in RL

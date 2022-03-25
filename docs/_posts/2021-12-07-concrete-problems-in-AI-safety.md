@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "AI Papers #1: Concrete problems in AI safety"
+title: "Concrete problems in AI safety (Amodei, 2016)"
 sidebar:
   nav: docs-en
 aside:
@@ -8,19 +8,8 @@ aside:
 show_tags: true
 tags: AI AI-safety papers
 ---
-A summary of the 2016 paper *Concrete Problems in AI Safety* by Amodei *et al.*
-
----
-
-**Epistemic status**: moderate confidence, likely a few mistakes or misconceptions. Note that these are meant to be my personal notes based on self-study - if you're looking for informed expert opinion on AI safety, [Rohin Shah's](https://rohinshah.com/) [Alignment Newsletter](https://rohinshah.com/alignment-newsletter/) is better for this.
-
-This post assumes some familiarity with basic machine learning and reinforcement learning, at the level of [Part 1 of OpenAI's Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html). 
-
-<br />
 
 # Overview
-I've been doing a lot of self-study in maths, AI, and AI safety recently. A lot of this consists of summarising papers and books that I've read, and up until now I've been keeping my notes on Google Docs. As an experiment, I'll try sharing some of them (papers that I think are really important or influential) on this blog as well.
-
 *[Concrete Problems in AI Safety](https://arxiv.org/pdf/1606.06565.pdf)* is a paper published in 2016 by Dario Amodei *et al*, one of the first papers to bring broader awareness to the issue of AI safety[^1]. The paper focuses on harmful societal impacts due to the poor design of AI systems, and proposes relevant research problems. 
 
 I first heard about this paper several years ago through [a video on Computerphile](https://www.youtube.com/watch?v=AjyM-f8rDpg). At the time I didn't give it much attention, but recently I've become a lot more interested in AI safety and decided that it was high time I read it!
@@ -127,13 +116,6 @@ We can think about OOD prediction in terms of [counterfactual reasoning](https:/
 
 ## Conclusion
 Takeaway: problems in AI safety (not limited to *accidents*) are important, and there are many concrete problems for people to work on!
-
-# Thoughts
-I really liked this paper! I found it especially useful for understanding possible failure modes, and having it all put into a single place. On first glance, some of the proposed solutions seem really clever (e.g. adversarial reward functions), some seem like common-sense (e.g. reward capping), and some feel like they aren't going to be of much help (e.g. trip wires). But that's just my intuition.
-
-My impression (as of December 2021) is that our understanding of the AI safety problem has progressed quite a bit since 2016, and that field has grown significantly. However, given the many harms that arise from these "accidents", it still seems like research interest in this area is disproportionately low. 
-
-I'm interested in getting a better picture of the progress that has been made so far, and what new problem areas have popped up ([Mesa-optimisers](https://www.alignmentforum.org/tag/mesa-optimization) and [Iterated Distillation and Amplification](https://www.lesswrong.com/tag/iterated-amplification) come to mind). That's a job for future paper summaries. 
 
 ---
 

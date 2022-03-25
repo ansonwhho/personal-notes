@@ -25,22 +25,10 @@ header:
     url: /archive.html
 
 docs-en: 
-  # - title: Physics
-  #   children: 
-  #   - title: Thermodynamics and statistical physics
-  #     url: /thermodynamics-statistical-physics.html
-    # - title: Quantum physics # Particle physics
-    #   url: 
-    # - title: Electromagnetism
-    #   url:
-    # - title: Special topics # Electronics, condensed matter physics
-    #   url: 
-    # - title: Optics
-    #   url: 
-  - title: Computer Science
+  - title: Artificial Intelligence
     children:
-      - title: Artificial Intelligence
-        url: /artificial-intelligence.html
+      - title: AI papers
+        url: /AI-papers.html
   #     - title: Theoretical Computer Science
   #       url: /theoretical-computer-science.html
   # - title: Mathematics
